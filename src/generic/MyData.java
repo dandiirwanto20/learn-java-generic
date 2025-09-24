@@ -8,6 +8,7 @@ public class MyData<T> {
         this.data = data;
     }
 
+    // covariant just can handle readonly data or get data, cant set new data or edit in generic
     public T getData() {
         return data;
     }
